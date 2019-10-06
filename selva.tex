@@ -215,8 +215,24 @@ I can always and consistently be found in Selva Virtual, but you can also try:
 
 \begin{frame}
 \frametitle{Current status: architecture}
-The UNIX way
-% graph or description of every component
+The UNIX way -- Do One Thing and Do It Well
+\begin{itemize}
+  \item{} mamnuts -- the actual talker server, with a telnet port (8888)
+  \item{} tcpserver -- providing other TCP ports (that redirect to 8888)
+  \item{} stunnel -- providing the telnet over SSL ports
+  \item{} telnet-ssl -- an unicode-friendly telnet client
+  \item{} shellinabox -- webserver that connects to the local telnet port
+  \item{} midgaard\_bot -- telegram bot
+  \item{} nutsbot -- base code used by Hattai, the talker bot
+    \begin{itemize}
+      \item{} gawk -- used to connect the bot to the utilities it uses
+      \item{} hattai-fortune -- a script that gives news
+      \item{} sdcv -- utility for work with dictionaries
+      \item{} pyjoke -- python jokes, giving Hattai a dubious sense of humor
+      \item{} fortune \&\& fortunes -- cookies!
+    \end{itemize}
+  \item{} git -- code versioning and backups
+\end{itemize}
 \end{frame}
 
 \begin{frame}
