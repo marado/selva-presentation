@@ -248,13 +248,16 @@ The UNIX way -- Do One Thing and Do It Well
 
 \begin{frame}
 \frametitle{Current challenges}
-% stunnel and telnet-ssl bugs
-% python 3
-% TalkerNode
-% tg bot
-% web client
-% article 11 and article 13
-% HA
+  \begin{itemize}
+     \item{} stunnel -- failure to start on boot (since 2007\ldots) -- \url{https://bugs.launchpad.net/ubuntu/+source/stunnel4/+bug/137472}
+     \item{} telnet-ssl -- failure to cope with some UTF-8 strings (since 2005!) -- \url{https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=749322}
+     \item{} python -- python 2 will EOL at 1st Jan 2020 -- \url{https://pythonclock.org/}
+     \item{} TalkerNode -- Mamnuts replacement, still lacking essential features -- \url{https://github.com/marado/TalkerNode/milestones}
+     \item{} midgaard\_bot -- lacking maintainer -- \url{https://github.com/Jereviendrai/midgaard\_bot/issues}
+     \item{} web client -- up shellinabox's game, or finally switch to websockets only support? -- \url{https://caniuse.com/websockets}
+     \item{} \#FixCopyright -- Article 11 (\#linktax) will impact, Article 13 (\#webfilters) might
+     \item{} HA\ldots
+  \end{itemize}
 \end{frame}
 
 % The next slides are about the future, and there could be more... eg. when
