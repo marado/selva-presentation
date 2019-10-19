@@ -1,4 +1,5 @@
-This is a presentation made for [Ubucon Europe 2019](https://manage.ubucon.org/eu2019/talk/LXRCRQ/), called:
+This is a presentation made for [Ubucon Europe
+2019](https://manage.ubucon.org/eu2019/talk/LXRCRQ/), called:
 
 # How to run a public-facing service for 27 years (and counting)
 
@@ -17,3 +18,11 @@ world created in 1992 is still up and running. This talk tries to tell the
 story of "Selva Virtual", the twenty seven year old talker, with social and
 technical tales of what took it for such a service to survive and outlive so
 many other trends that came and went.
+
+## Presentation
+
+This presentation is made in LaTeX. The source file is [selva.tex](selva.tex),
+and the result can be seen or downloaded as [selva.pdf](selva.pdf).
+
+The template for this presentation can be found at [in this
+repository](https://github.com/marado/2019sintra-presentation-template-LaTeX-dfsg).
